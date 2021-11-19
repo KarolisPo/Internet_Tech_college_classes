@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirma anketa</title>
+</head>
+<body>
+    <center><h1>Užpildykite formą</h1></center>
+    <hr width="90%" size="5" color="black"></hr>
+    <form action="pirma_forma.html" method="get">
+        <p>
+            <b>Jūsų vardas:</b><input type="text" name=“vardas“>&nbsp;&nbsp;</input>
+            <b>Pavardė:</b><input type="text" name=“pavarde“></input>
+        </p>
+    <p>
+        <b>Jūsų amžius:</b>
+    </p>
+        <p>
+            <input type="radio" name="amzius" > Iki 10m </input>
+            <input type="radio" name="amzius" > 10-15m </input>
+        </p>
+        <p>
+            <input type="radio" name="amzius" > 16-20m </input>
+            <input type="radio" name="amzius" > 21-30m </input>
+        </p>
+        <p>
+            <input type="radio" name="amzius" > 31-40m </input>
+            <input type="radio" name="amzius" > 41-50m </input>
+        </p>
+        <p>
+            <input type="radio" name="amzius" > 51-60m </input>
+            <input type="radio" name="amzius" > Virš 60m </input>
+        </p>
+    <p>
+        <b>Jūsų adresas:</b>
+    </p>
+    <p>
+        Miestas/rajonas
+        <select name="tautybe">
+        <option> Vilnius </option>
+        <option> Klaipėda </option>
+        <option> Kaunas </option>
+        <option> Šiauliai </option>
+        <option> Panevežys </option>
+        <option> Alytus </option>
+        <option> Marijampolė </option>
+        <option> Mažeikiai </option>
+        <option> Jonava </option>
+        <option> Utena </option>
+        <option> kita </option>
+        </select>
+    </p>
+    <p>
+        Adresas (gatvė, namo ir buto numeris/ kaimo pavadinimas)
+        <textarea name="adresas" style="resize: none; width: 200px; height: 50px;"></textarea>
+    </p>
+    <p>
+        Elektroninio pašto adresas:</b><input type="text" name=“pastas“></input>
+    </p>
+
+    <p>
+        <b>Jūsų pomėgiai:</b>
+    </p>
+        <p>
+            <input type="checkbox" name="pomegiai"> Kompiuteriai </input>
+            <input type="checkbox" name="pomegiai"> Literatūra </input>
+            <input type="checkbox" name="pomegiai"> Istorija </input>
+            <input type="checkbox" name="pomegiai"> Menas </input>
+            <input type="checkbox" name="pomegiai"> Filmai </input>
+            <input type="checkbox" name="pomegiai"> Kita </input>
+        </p>
+    <hr width="90%" size="5" color="black"></hr>
+    <p style="text-align: center;">
+        <input type="reset" name="valyti" value="Išvalyti anketa">
+        <input type="submit" name="siusti"value="Išsiųsti anketą">
+    </p>
+</form>
+</body>
+</html>

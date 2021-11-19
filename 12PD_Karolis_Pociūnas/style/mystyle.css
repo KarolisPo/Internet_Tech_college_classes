@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+    color: blanchedalmond;
+}
+body.main {
+    background-color: #ADEFD1FF;
+}
+
+body.first {
+    background-image: url(https://images.pexels.com/photos/5969/wood-nature-forest-bridge.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+}
+
+body.second {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.techgyd.com%2F50-Most-Amazing-Batman-Logo-Icons-GIF-Transparent-PNG-Images-78.jpg&f=1&nofb=1);
+    background-repeat: repeat-y repeat-x;
+    
+}
+
+body.third {
+    background-image: url(https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment:scroll;
+    background-size: cover;
+
+}
+body.fourth {
+    background-image: url(https://images.pexels.com/photos/226721/pexels-photo-226721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment:fixed;
+    background-size: cover;
+}
+div {
+    position: relative;
+}
+
+.plain-text {
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+.block{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    display: block;
+    width: 25%;
+    height: 34px;
+    background-color: #00203FFF;
+    color: blanchedalmond;
+    font-size: 25px;
+    font-family: "Trirong", serif;
+}
+
+.back{
+    position: absolute;
+    margin-left: 50%;
+    bottom: 20px;
+    width: 5%;
+    height: 30px;
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    font-size: 20px;
+    font-family: "Trirong", serif;
+}
+

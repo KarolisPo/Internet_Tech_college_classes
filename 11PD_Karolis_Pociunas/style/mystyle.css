@@ -1,0 +1,28 @@
+p.centblue {
+    color: blue;
+    text-align: center;
+}
+
+p.green {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: green;
+}
+
+p.left {
+    text-align: left;
+    color: blue;
+    text-transform: capitalize;
+}
+
+p.shadow {
+    text-align: justify;
+    margin-left: 10px;
+    text-shadow: 1px 1px #ff0000
+}
+
+h1.centred {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}

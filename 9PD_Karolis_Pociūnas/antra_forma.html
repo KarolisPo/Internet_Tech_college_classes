@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Prašome užpildyti antrą anketą</h2>
+    <hr width="90%" size="5" color="green"></hr>
+    <form action="antra_forma.html" method="get">
+        <p>
+            Jūsų vardas ir pavardė:<input type="text" name=“vardas_pavarde“></input>
+        </p>
+        <p>
+            Pašto adresas
+            <textarea name="pastas" style="resize: none; width: 400px; height: 70px;"></textarea>
+        </p>
+        <p>
+            Elektroninio pašto adresas:</b><input type="text" name=“el_pastas“></input>
+        <p>
+            Užsiėmimas
+        </p>
+        <p><input type="checkbox" name="uzsiemimas" style=" margin-left: 50px;"> Studentas </input></p>
+        <p><input type="checkbox" name="uzsiemimas" style=" margin-left: 50px;"> Dirbu </input></p>
+        <p><input type="checkbox" name="uzsiemimas" style=" margin-left: 50px;"> Nedirbu </input></p>
+
+        <hr width="90%" size="5" color="green"></hr>
+        <p>
+            <h2>Vertinimai</h2>
+        </p>
+        <p>
+            Jūsų komentarai
+            <textarea name="komentaras" style="resize: none; width: 400px; height: 70px;"></textarea>
+        </p>
+        <p>
+            Kaip vertinate svetaine?
+            <select name="vertinimas">
+            <option> Puikiai </option>
+            <option> Vidutiniškai </option>
+            <option> Blogai </option>
+            <option> Susilaikau </option>
+            </select>
+        </p>
+    <hr width="90%" size="5" color="green"></hr>
+    <p>
+        <input type="submit" name="siusti" value="Išsiųsti anketą">
+        <input type="reset" name="valyti" value="Atsisakau">
+    </p>
+</form>
+</body>
+</html>

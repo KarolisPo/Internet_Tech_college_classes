@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trečia apklausa</title>
+</head>
+<body>
+    <center><h1>Studento forma</h1></center>
+    <hr width="90%" size="5" color="#FE8529"></hr>
+    <form action="trecia_forma.html" method="get">
+        <p>
+            <b>Jūsų vardas:</b><input type="text" name=“vardas“>&nbsp;&nbsp;</input>
+            <b>Pavardė:</b><input type="text" name=“pavarde“></input>
+        </p>
+    <p>
+        <b>Jūsų amžius:</b><input type="text" name=“amzius“  maxlength="2" size="1"></input>
+    <p>
+    <p>
+        <b>Elektroninio pašto adresas:</b></b><input type="text" name=“pastas“></input>
+    </p>
+        <b>Kolegija kurioje studijuojate:</b>
+        <select name="kolegija">
+        <option> Vilnaus kolegija </option>
+        <option> Kauno kolegija </option>
+        <option> Utenos kolegija </option>
+        <option> Šiaulių kolegija </option>
+        <option> Alytaus kolegija </option>
+        <option> Kauno technikos kolegija </option>
+        <option> Marijampolės kolegija </option>
+        <option> Panevėžio kolegija </option>
+        <option> Vilniaus technologijų ir dizaino kolegija </option>
+        <option> Kauno miškų ir aplinkos inžinerijos kolegija </option>
+        </select>
+    </p>
+    <p>
+        <b>Ar mokate už studijas?</b>
+    </p>
+        <p>
+            <input type="radio" name="vf_vnf" > Taip </input>
+            <input type="radio" name="vf_vnf" > Ne </input>
+        </p>
+        <b>Studijų forma</b>
+    </p>
+        <p>
+            <input type="radio" name="studijos" style=" margin-left: 50px;" > Nuolatinės </input>
+        </p>
+        <p>
+            <input type="radio" name="studijos" style=" margin-left: 50px;"> Ištęstinės </input>
+        </p>
+        <p>
+            <input type="radio" name="studijos" style=" margin-left: 50px;"> Nuotolinės </input>
+        </p>
+        <p>
+            Ką manote apie savo studijų programą?
+            <textarea name="komentaras" style="resize: none; width: 400px; height: 70px;"></textarea>
+        </p>
+    <hr width="90%" size="5" color="#FE8529"></hr>
+    <p style="text-align: center;">
+        <input type="reset" name="valyti" value="Išvalyti">
+        <input type="submit" name="siusti"value="Išsiųsti">
+    </p>
+</body>
+</html>

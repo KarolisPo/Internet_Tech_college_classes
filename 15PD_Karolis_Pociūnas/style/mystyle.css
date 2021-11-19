@@ -1,0 +1,108 @@
+.block{
+    display: block;
+    width: 100%;
+    height: 41px;
+    background-color: rgb(201, 175, 175);
+    color: rgb(28, 28, 211);
+    font-size: 20px;
+    font-family: "Trirong", serif;
+    margin: 1px;
+}
+
+.border {
+    border-style: dotted;
+    border-color: mediumblue;
+    border-width: 5pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    color: purple;
+    font-size: 20pt;
+    text-align: center;
+    text-shadow: 1px 1px lime;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.default {
+    cursor: default;
+}
+.move {
+    cursor: move;
+}
+
+.help {
+    cursor: help;
+}
+
+.text {
+    cursor: text;
+}
+.wait {
+    cursor: wait;
+}
+
+.nresize {
+    cursor: n-resize;
+}
+
+.sresize {
+    cursor: s-resize;
+}
+.neresize {
+    cursor: ne-resize;
+}
+
+.swresize {
+    cursor: sw-resize;
+}
+
+.nwresize {
+    cursor: nw-resize;
+}
+.seresize {
+    cursor: se-resize;
+}
+
+.eresize {
+    cursor: e-resize;
+}
+
+.wresize {
+    cursor: w-resize ;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.notallowed {
+    cursor: not-allowed;
+}
+.verticaltext {
+    cursor: vertical-text;
+}
+
+.allscroll {
+    cursor: all-scroll;
+}
+
+.colresize {
+    cursor: col-resize;
+}
+.rowresize {
+    cursor: row-resize;
+}

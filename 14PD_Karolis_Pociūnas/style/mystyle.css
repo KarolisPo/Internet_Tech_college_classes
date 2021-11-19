@@ -1,0 +1,23 @@
+.blokas {
+    border-collapse: separate;
+    border-width: 5px;
+    border-style: double;
+    Border-color: green;
+    border-spacing: 10px 20px;
+    
+}
+
+td {
+    border-width: 1px;
+    border-style: dashed;
+    Border-color: blue;
+    text-shadow: 1px 1px rebeccapurple;
+}
+
+a{
+    color: blue;
+}
+
+a:visited{
+    color: seagreen;
+}
